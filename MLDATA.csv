@@ -1,0 +1,501 @@
+﻿age,gender,weight,occupation,painseverity(1-10),duration,location,trigger,anxietyscore,depressionscore,panicattackhistory(yes/no),hypertensionhistory(yes/no),medicationuse(yes/no),smoking/alcohol/etc(yes/no),sleephours,physicalactivity(hoursperweek),socialinteraction(low/med/high)
+32, male,70, Software Engineer,8,60,Sternal (Central),Trauma / Injury,2,6,YES,YES,YES,YES,10,13,HIGH
+25, male,85, Sales Representative,3,20,Intercostal Area,Repetitive Motion,19,7,NO,YES,NO,YES,0,24,MED
+41, female,62, Doctor,5,10,Left Pectoral,Cold Weather,10,25,NO,YES,YES,YES,2,14,MED
+38, male,79, Lawyer,1,30,Scapular Region,Cold Weather,9,24,NO,YES,YES,NO,9,17,LOW
+29, female,58, Graphic Designer,9,10,Upper Back (Thoracic),Repetitive Motion,13,27,YES,NO,NO,NO,8,11,HIGH
+45, male,92, Business Consultant,9,20,Subclavicular,Deep Breathing,20,16,NO,NO,NO,NO,0,14,HIGH
+27, female,55, Marketing Specialist,9,60,Left Pectoral,Repetitive Motion,17,21,YES,NO,NO,YES,8,13,LOW
+52, male,83, CEO,10,15,Intercostal Area,Cold Weather,3,27,YES,NO,YES,NO,6,7,LOW
+31, female,61, Project Manager,7,5,Right Pectoral,Repetitive Motion,7,11,NO,YES,YES,NO,8,9,LOW
+36, male,76, Engineer,3,20,Intercostal Area,Palpation / Pressure,20,26,YES,YES,YES,YES,6,16,HIGH
+24, female,53, Accountant,7,40,Costochondral Area,Deep Breathing,15,25,NO,YES,YES,YES,0,20,MED
+44, male,87, Architect,10,40,Costosternal Junction,Physical Activity,13,18,NO,NO,NO,YES,0,7,MED
+28, female,60, Nurse,7,5,Scapular Region,Repetitive Motion,1,14,YES,NO,YES,YES,10,21,MED
+29, male,84, Analyst,7,20,Intercostal Area,Unidentified / Idiopathic,11,1,YES,YES,NO,YES,10,9,MED
+33, female,65, Teacher,7,20,Sternal (Central),Unidentified / Idiopathic,2,17,YES,YES,NO,YES,1,16,LOW
+37, male,78, IT Manager,9,20,Scapular Region,Cold Weather,14,24,NO,NO,YES,YES,0,6,MED
+26, female,59, Writer,8,60,Costosternal Junction,Deep Breathing,8,25,NO,NO,YES,NO,7,5,LOW
+28, male,75, Engineer,8,60,Epigastric,Palpation / Pressure,11,4,YES,YES,NO,YES,3,21,MED
+33, male,82, Teacher,7,5,Costosternal Junction,Deep Breathing,13,0,NO,YES,YES,YES,7,16,MED
+44, female,58, Doctor,1,40,Costosternal Junction,Palpation / Pressure,14,26,NO,YES,YES,NO,0,9,HIGH
+29, male,74, Sales Representative,10,20,Subclavicular,Palpation / Pressure,18,13,NO,NO,NO,NO,9,17,HIGH
+31, female,63, Marketing Specialist,7,30,Costosternal Junction,Unidentified / Idiopathic,0,6,NO,NO,YES,NO,1,23,LOW
+40, male,90, Business Analyst,1,30,Upper Back (Thoracic),Poor Posture,20,5,NO,NO,YES,NO,4,18,MED
+27, female,56, Project Manager,10,20,Subclavicular,Physical Activity,4,15,NO,NO,NO,YES,2,15,MED
+47, male,85, CEO,6,5,Right Pectoral,Movement,7,1,NO,YES,NO,NO,4,22,LOW
+35, female,65, Graphic Designer,4,60,Costosternal Junction,Repetitive Motion,1,5,NO,NO,YES,NO,7,11,HIGH
+42, male,80, Architect,10,5,Intercostal Area,Palpation / Pressure,17,0,NO,YES,NO,YES,6,18,LOW
+26, female,53, Accountant,2,10,Sternal (Central),Stress / Anxiety,20,12,NO,YES,YES,NO,1,4,MED
+49, male,92, Lawyer,9,5,Sternal (Central),Stress / Anxiety,3,17,YES,YES,YES,YES,8,19,LOW
+30, female,61, Nurse,7,10,Epigastric,Unidentified / Idiopathic,20,6,YES,YES,NO,YES,2,20,MED
+35, male,84, Analyst,4,40,Diffuse/Generalized,Physical Activity,13,4,NO,NO,YES,NO,3,3,LOW
+38, female,68, Teacher,1,10,Left Pectoral,Stress / Anxiety,10,0,YES,NO,YES,NO,8,16,HIGH
+31, male,78, IT Manager,8,20,Sternal (Central),Poor Posture,21,3,YES,NO,YES,YES,3,20,MED
+29, female,59, Writer,2,60,Sternal (Central),Trauma / Injury,15,3,YES,NO,NO,YES,2,1,LOW
+32, male,78, Engineer,3,20,Epigastric,Deep Breathing,9,12,YES,YES,NO,YES,8,20,HIGH
+27, female,61, Marketing Specialist,4,5,Diffuse/Generalized,Physical Activity,7,2,NO,YES,YES,YES,4,21,LOW
+41, male,85, Business Analyst,1,60,Intercostal Area,Unidentified / Idiopathic,19,23,YES,YES,NO,NO,6,12,LOW
+36, female,57, Graphic Designer,10,60,Costochondral Area,Cold Weather,7,17,NO,YES,YES,YES,2,14,LOW
+29, male,81, Sales Representative,1,20,Upper Back (Thoracic),Physical Activity,3,24,YES,NO,NO,YES,8,17,HIGH
+33, female,65, Doctor,8,15,Epigastric,Poor Posture,16,4,YES,NO,YES,NO,5,10,HIGH
+45, male,92, CEO,6,20,Upper Back (Thoracic),Deep Breathing,20,21,NO,YES,YES,NO,3,14,LOW
+28, female,50, Writer,5,30,Scapular Region,Deep Breathing,3,27,NO,YES,NO,NO,9,0,HIGH
+39, male,83, IT Manager,7,20,Left Pectoral,Stress / Anxiety,19,8,NO,NO,YES,YES,0,15,LOW
+32, female,58, Accountant,8,10,Right Pectoral,Repetitive Motion,0,20,YES,NO,NO,YES,8,11,HIGH
+44, male,90, Lawyer,7,10,Epigastric,Stress / Anxiety,21,11,NO,YES,NO,NO,0,3,MED
+26, female,54, Teacher,10,5,Diffuse/Generalized,Unidentified / Idiopathic,19,24,YES,NO,YES,NO,3,16,MED
+36, male,76, Analyst,10,5,Epigastric,Trauma / Injury,14,22,YES,NO,YES,NO,3,20,MED
+29, female,63, Project Manager,5,40,Epigastric,Stress / Anxiety,11,2,YES,NO,NO,YES,3,13,HIGH
+42, male,87, Architect,4,20,Subclavicular,Movement,16,1,NO,YES,NO,YES,4,24,LOW
+40,female,51,Business Consultant,9,15 minutes,Sternal (Central),Repetitive Motion,1,19,NO,YES,YES,NO,4,21,HIGH
+23,male,77,Doctor,3,10 minutes,Upper Back (Thoracic),Stress / Anxiety,20,24,NO,NO,NO,NO,10,19,LOW
+36,female,28,Sales Representative,6,10 minutes,Scapular Region,Movement,15,15,YES,YES,YES,YES,8,22,MED
+31,male,22,Analyst,10,60 minutes,Left Pectoral,Palpation / Pressure,20,18,YES,NO,NO,YES,5,2,LOW
+34,female,18,Marketing Specialist,3,60 minutes,Scapular Region,Poor Posture,10,19,NO,NO,NO,YES,5,16,LOW
+28,male,30,CEO,7,10 minutes,Sternal (Central),Repetitive Motion,16,27,YES,NO,NO,YES,9,3,MED
+34,female,33,Nurse,3,15 minutes,Upper Back (Thoracic),Stress / Anxiety,3,14,NO,YES,NO,NO,7,18,LOW
+23,female,66,Lawyer,1,20 minutes,Right Pectoral,Movement,21,27,NO,YES,YES,YES,7,17,HIGH
+38,female,37,Engineer,5,30 minutes,Intercostal Area,Stress / Anxiety,18,8,NO,YES,NO,YES,5,16,MED
+33,female,34,Lawyer,7,15 minutes,Diffuse/Generalized,Cold Weather,15,6,NO,NO,NO,YES,10,13,LOW
+19,male,80,CEO,9,30 minutes,Epigastric,Repetitive Motion,20,9,NO,YES,YES,NO,6,0,HIGH
+25,male,52,Graphic Designer,4,10 minutes,Costosternal Junction,Poor Posture,20,2,YES,YES,YES,NO,4,21,LOW
+31,male,46,Nurse,8,30 minutes,Sternal (Central),Deep Breathing,1,5,NO,NO,YES,NO,4,2,MED
+32,male,31,Sales Representative,6,40 minutes,Intercostal Area,Cold Weather,14,9,NO,NO,YES,YES,10,13,MED
+28,male,59,Nurse,9,60 minutes,Left Pectoral,Deep Breathing,15,24,NO,YES,YES,YES,4,13,MED
+38,female,40,Business Consultant,7,30 minutes,Costosternal Junction,Movement,19,0,NO,NO,NO,YES,7,6,MED
+23,male,26,Project Manager,2,5 minutes,Right Pectoral,Physical Activity,3,11,YES,NO,NO,YES,4,14,MED
+30,male,25,Doctor,6,20 minutes,Costochondral Area,Movement,3,21,NO,YES,YES,YES,10,13,LOW
+27,male,81,Doctor,8,5 minutes,Diffuse/Generalized,Poor Posture,16,4,NO,NO,YES,NO,8,8,LOW
+33,male,85,Business Consultant,4,5 minutes,Intercostal Area,Palpation / Pressure,20,7,NO,YES,YES,YES,9,6,MED
+31,male,75,CEO,7,15 minutes,Left Pectoral,Poor Posture,14,12,YES,YES,NO,YES,4,6,MED
+39,male,85,Sales Representative,7,40 minutes,Subclavicular,Repetitive Motion,12,0,YES,NO,NO,NO,9,18,MED
+34,female,22,Lawyer,1,30 minutes,Subclavicular,Physical Activity,1,12,NO,NO,YES,NO,5,10,LOW
+29,female,66,Business Analyst,3,5 minutes,Left Pectoral,Repetitive Motion,3,9,NO,NO,NO,YES,5,2,MED
+32,male,61,Engineer,5,10 minutes,Right Pectoral,Movement,6,15,NO,NO,YES,YES,5,23,MED
+31,female,26,Writer,10,60 minutes,Subclavicular,Cold Weather,7,1,NO,NO,NO,NO,8,6,HIGH
+40,male,69,Business Analyst,8,60 minutes,Diffuse/Generalized,Physical Activity,0,9,NO,YES,NO,YES,7,23,MED
+34,male,63,IT Manager,4,40 minutes,Diffuse/Generalized,Trauma / Injury,5,9,NO,YES,YES,YES,6,10,MED
+18,female,37,Accountant,10,15 minutes,Diffuse/Generalized,Unidentified / Idiopathic,1,6,YES,YES,YES,YES,10,6,MED
+25,female,38,Engineer,5,60 minutes,Upper Back (Thoracic),Poor Posture,7,20,YES,YES,NO,NO,5,18,MED
+29,female,31,CEO,8,40 minutes,Costosternal Junction,Movement,10,23,YES,YES,NO,YES,10,22,MED
+24,male,43,CEO,5,15 minutes,Costosternal Junction,Physical Activity,17,19,NO,NO,YES,NO,10,16,LOW
+31,male,22,Project Manager,10,15 minutes,Diffuse/Generalized,Repetitive Motion,13,16,YES,YES,YES,YES,9,8,HIGH
+33,male,31,Business Consultant,3,5 minutes,Costochondral Area,Repetitive Motion,1,8,NO,YES,YES,NO,8,7,HIGH
+30,female,40,Teacher,10,10 minutes,Costochondral Area,Unidentified / Idiopathic,11,3,YES,NO,YES,YES,5,10,LOW
+26,male,51,Doctor,4,15 minutes,Subclavicular,Deep Breathing,9,21,NO,YES,YES,NO,8,21,LOW
+44,female,84,Marketing Specialist,7,5 minutes,Diffuse/Generalized,Movement,5,3,NO,YES,NO,YES,9,22,LOW
+25,male,39,Graphic Designer,8,10 minutes,Subclavicular,Repetitive Motion,13,4,YES,NO,NO,YES,9,5,HIGH
+33,female,31,Project Manager,8,10 minutes,Costochondral Area,Palpation / Pressure,19,14,NO,YES,NO,NO,10,18,LOW
+29,female,44,Doctor,6,30 minutes,Epigastric,Trauma / Injury,15,18,NO,NO,NO,YES,5,21,HIGH
+35,male,53,Project Manager,7,10 minutes,Left Pectoral,Stress / Anxiety,2,6,YES,YES,YES,NO,7,24,LOW
+35,male,61,Engineer,3,40 minutes,Diffuse/Generalized,Unidentified / Idiopathic,8,12,YES,YES,YES,YES,9,23,HIGH
+28,male,85,Business Analyst,4,30 minutes,Costosternal Junction,Unidentified / Idiopathic,4,9,YES,YES,NO,NO,8,6,LOW
+34,male,71,Teacher,9,15 minutes,Scapular Region,Deep Breathing,20,8,NO,YES,NO,NO,10,23,MED
+32,male,64,Business Analyst,5,5 minutes,Upper Back (Thoracic),Physical Activity,9,13,YES,NO,NO,YES,6,18,LOW
+22,female,46,Sales Representative,4,5 minutes,Scapular Region,Trauma / Injury,0,6,NO,NO,NO,NO,6,7,MED
+28,male,69,Business Analyst,8,20 minutes,Subclavicular,Unidentified / Idiopathic,6,7,YES,NO,NO,YES,9,20,HIGH
+45,male,37,Writer,4,60 minutes,Epigastric,Deep Breathing,2,11,NO,NO,NO,NO,8,10,HIGH
+32,female,50,Marketing Specialist,6,5 minutes,Intercostal Area,Cold Weather,9,21,YES,NO,YES,NO,5,8,LOW
+28,male,26,Project Manager,3,5 minutes,Subclavicular,Poor Posture,18,23,YES,YES,NO,YES,6,20,LOW
+26,male,76,Engineer,6,40 minutes,Subclavicular,Poor Posture,10,10,NO,YES,YES,NO,7,4,HIGH
+21,male,18,Lawyer,1,30 minutes,Diffuse/Generalized,Stress / Anxiety,20,25,YES,YES,YES,NO,9,23,MED
+27,male,77,Accountant,7,20 minutes,Costosternal Junction,Unidentified / Idiopathic,21,20,NO,YES,NO,YES,9,19,MED
+18,male,43,Sales Representative,10,30 minutes,Diffuse/Generalized,Unidentified / Idiopathic,3,17,NO,YES,YES,NO,6,7,LOW
+35,male,78,Engineer,10,40 minutes,Diffuse/Generalized,Movement,0,7,YES,NO,YES,NO,10,23,LOW
+29,female,24,Lawyer,3,20 minutes,Diffuse/Generalized,Repetitive Motion,9,1,NO,YES,YES,NO,8,7,HIGH
+25,female,56,Business Consultant,2,10 minutes,Scapular Region,Stress / Anxiety,2,1,NO,YES,NO,NO,4,6,HIGH
+33,female,18,Nurse,9,15 minutes,Right Pectoral,Trauma / Injury,11,0,YES,NO,NO,NO,9,7,LOW
+36,female,22,Doctor,5,5 minutes,Costochondral Area,Stress / Anxiety,5,0,NO,NO,NO,YES,5,21,LOW
+27,female,50,Teacher,5,15 minutes,Diffuse/Generalized,Cold Weather,19,5,NO,NO,NO,NO,4,6,LOW
+27,male,19,Teacher,7,5 minutes,Epigastric,Physical Activity,5,10,YES,YES,YES,NO,10,11,HIGH
+27,female,57,Lawyer,10,20 minutes,Right Pectoral,Movement,8,21,YES,YES,NO,YES,8,20,MED
+32,male,85,Marketing Specialist,5,60 minutes,Right Pectoral,Cold Weather,7,2,NO,NO,NO,YES,7,5,LOW
+31,female,66,Business Consultant,2,60 minutes,Costosternal Junction,Physical Activity,17,5,NO,YES,NO,YES,10,21,HIGH
+19,male,50,Teacher,5,10 minutes,Intercostal Area,Movement,15,14,NO,NO,NO,NO,7,2,HIGH
+33,female,79,Architect,9,60 minutes,Left Pectoral,Deep Breathing,8,0,YES,NO,YES,YES,5,21,HIGH
+32,male,37,Engineer,2,40 minutes,Costosternal Junction,Movement,10,6,NO,NO,NO,YES,6,11,LOW
+27,female,38,Nurse,2,40 minutes,Sternal (Central),Repetitive Motion,10,19,YES,YES,NO,YES,6,9,LOW
+38,male,72,Architect,5,30 minutes,Sternal (Central),Cold Weather,14,16,NO,YES,YES,YES,10,13,MED
+24,female,32,Lawyer,6,5 minutes,Costosternal Junction,Poor Posture,13,15,NO,NO,YES,NO,10,3,LOW
+39,male,46,Nurse,9,15 minutes,Right Pectoral,Physical Activity,15,4,NO,NO,YES,NO,6,21,HIGH
+28,male,66,Architect,9,30 minutes,Right Pectoral,Palpation / Pressure,8,21,YES,YES,YES,NO,6,22,MED
+39,male,62,Marketing Specialist,9,60 minutes,Sternal (Central),Cold Weather,15,15,YES,NO,YES,NO,4,5,MED
+29,female,76,Marketing Specialist,10,10 minutes,Costochondral Area,Cold Weather,16,25,NO,NO,NO,YES,4,3,HIGH
+22,female,85,Project Manager,7,15 minutes,Left Pectoral,Unidentified / Idiopathic,4,2,NO,NO,YES,YES,5,15,LOW
+38,female,25,Marketing Specialist,6,10 minutes,Intercostal Area,Palpation / Pressure,15,7,YES,NO,NO,YES,7,1,LOW
+37,male,51,Writer,7,5 minutes,Epigastric,Poor Posture,17,21,NO,YES,YES,YES,10,19,LOW
+35,female,80,Software Engineer,6,10 minutes,Costosternal Junction,Palpation / Pressure,3,27,YES,NO,NO,YES,6,23,MED
+29,female,84,Engineer,4,20 minutes,Intercostal Area,Trauma / Injury,10,19,NO,YES,NO,NO,7,7,LOW
+30,male,66,Accountant,8,15 minutes,Right Pectoral,Unidentified / Idiopathic,10,17,NO,NO,YES,YES,4,9,HIGH
+37,female,51,Nurse,8,5 minutes,Costochondral Area,Stress / Anxiety,9,25,YES,NO,YES,YES,10,1,MED
+24,female,47,Doctor,3,10 minutes,Diffuse/Generalized,Movement,9,1,NO,YES,NO,YES,4,22,MED
+23,female,46,Project Manager,2,60 minutes,Right Pectoral,Stress / Anxiety,6,21,NO,YES,YES,NO,7,16,MED
+30,female,31,Writer,5,30 minutes,Left Pectoral,Stress / Anxiety,4,13,NO,YES,YES,YES,9,14,HIGH
+29,female,60,CEO,5,5 minutes,Sternal (Central),Unidentified / Idiopathic,2,18,YES,YES,YES,NO,7,6,HIGH
+19,male,73,Architect,9,60 minutes,Epigastric,Palpation / Pressure,20,19,NO,YES,NO,NO,4,8,LOW
+32,female,74,Accountant,4,10 minutes,Sternal (Central),Deep Breathing,12,7,YES,NO,NO,NO,8,4,HIGH
+28,female,38,Business Consultant,5,10 minutes,Right Pectoral,Repetitive Motion,14,18,YES,NO,YES,NO,9,13,HIGH
+36,male,61,Lawyer,3,30 minutes,Right Pectoral,Stress / Anxiety,5,2,YES,NO,YES,YES,7,7,LOW
+37,female,39,IT Manager,6,40 minutes,Scapular Region,Trauma / Injury,1,7,NO,NO,NO,NO,10,1,MED
+25,male,23,Nurse,3,5 minutes,Upper Back (Thoracic),Physical Activity,10,24,NO,NO,NO,YES,10,1,MED
+27,male,31,Sales Representative,2,5 minutes,Scapular Region,Poor Posture,14,17,NO,NO,YES,NO,5,1,MED
+26,male,40,Nurse,5,40 minutes,Sternal (Central),Palpation / Pressure,16,0,YES,YES,NO,NO,7,19,LOW
+27,female,83,Project Manager,4,10 minutes,Costochondral Area,Movement,7,7,NO,NO,NO,NO,6,16,HIGH
+25,female,22,CEO,1,30 minutes,Right Pectoral,Stress / Anxiety,2,16,NO,YES,NO,NO,9,18,LOW
+36,female,58,Architect,7,10 minutes,Right Pectoral,Stress / Anxiety,16,4,NO,YES,YES,YES,10,4,MED
+25,female,23,Analyst,5,5 minutes,Subclavicular,Palpation / Pressure,13,12,NO,NO,YES,YES,6,9,MED
+31,female,19,Engineer,4,60 minutes,Intercostal Area,Palpation / Pressure,14,21,NO,NO,NO,YES,6,8,MED
+26,female,22,Nurse,7,40 minutes,Left Pectoral,Unidentified / Idiopathic,11,21,NO,YES,YES,NO,10,15,LOW
+33,female,30,Graphic Designer,7,10 minutes,Right Pectoral,Repetitive Motion,17,20,NO,YES,YES,YES,7,4,HIGH
+27,male,74,Sales Representative,5,60 minutes,Costochondral Area,Unidentified / Idiopathic,1,4,YES,YES,NO,YES,10,5,LOW
+34,male,80,Software Engineer,3,15 minutes,Left Pectoral,Palpation / Pressure,16,19,NO,YES,YES,NO,6,13,LOW
+42,male,49,Doctor,8,15 minutes,Right Pectoral,Stress / Anxiety,8,10,YES,YES,NO,YES,4,23,MED
+23,male,67,Nurse,5,20 minutes,Sternal (Central),Physical Activity,9,1,NO,YES,NO,NO,5,9,LOW
+24,male,59,Teacher,6,60 minutes,Right Pectoral,Deep Breathing,10,24,NO,YES,NO,NO,10,2,HIGH
+26,male,21,Lawyer,3,60 minutes,Left Pectoral,Movement,12,7,YES,YES,YES,NO,5,14,HIGH
+31,female,54,Software Engineer,3,30 minutes,Right Pectoral,Palpation / Pressure,21,25,YES,NO,YES,YES,4,21,MED
+22,male,61,Writer,10,20 minutes,Diffuse/Generalized,Palpation / Pressure,12,25,NO,NO,NO,YES,5,12,HIGH
+23,male,32,Writer,1,5 minutes,Diffuse/Generalized,Trauma / Injury,10,3,YES,YES,NO,YES,4,18,MED
+34,male,55,Doctor,9,40 minutes,Sternal (Central),Trauma / Injury,17,15,YES,NO,YES,YES,9,6,LOW
+31,male,31,Graphic Designer,6,40 minutes,Right Pectoral,Palpation / Pressure,12,2,NO,NO,YES,NO,7,13,MED
+28,male,31,Marketing Specialist,2,30 minutes,Left Pectoral,Stress / Anxiety,12,12,YES,NO,YES,YES,10,24,HIGH
+32,male,84,Analyst,4,5 minutes,Left Pectoral,Poor Posture,11,5,YES,YES,YES,YES,8,10,HIGH
+45,male,50,Business Consultant,7,30 minutes,Right Pectoral,Trauma / Injury,13,2,NO,NO,YES,NO,8,16,LOW
+33,male,44,IT Manager,4,10 minutes,Sternal (Central),Deep Breathing,8,6,NO,YES,YES,NO,6,5,MED
+29,female,53,Sales Representative,9,60 minutes,Upper Back (Thoracic),Physical Activity,18,9,NO,YES,NO,NO,6,18,MED
+26,female,31,Analyst,9,15 minutes,Costosternal Junction,Poor Posture,18,25,YES,YES,YES,YES,8,18,LOW
+28,male,25,IT Manager,2,40 minutes,Sternal (Central),Poor Posture,21,15,YES,YES,NO,NO,10,14,LOW
+45,female,69,Architect,6,20 minutes,Epigastric,Stress / Anxiety,19,10,YES,NO,YES,YES,6,14,HIGH
+43,female,40,Nurse,1,30 minutes,Right Pectoral,Movement,11,15,NO,NO,NO,NO,7,19,LOW
+37,male,73,IT Manager,6,20 minutes,Right Pectoral,Palpation / Pressure,10,21,YES,NO,NO,NO,9,21,LOW
+24,male,23,Analyst,6,20 minutes,Epigastric,Unidentified / Idiopathic,4,21,YES,YES,YES,YES,5,12,MED
+26,male,81,Sales Representative,3,15 minutes,Epigastric,Palpation / Pressure,8,26,NO,NO,YES,YES,9,24,LOW
+23,male,41,Architect,10,20 minutes,Upper Back (Thoracic),Physical Activity,4,0,YES,YES,NO,YES,10,1,MED
+35,female,28,Project Manager,9,15 minutes,Right Pectoral,Trauma / Injury,2,12,NO,YES,NO,YES,7,22,MED
+38,male,44,Lawyer,4,20 minutes,Left Pectoral,Deep Breathing,9,9,NO,NO,YES,NO,4,10,MED
+28,male,22,Business Analyst,4,20 minutes,Right Pectoral,Poor Posture,14,9,YES,NO,NO,YES,5,7,LOW
+28,female,53,Project Manager,5,60 minutes,Epigastric,Unidentified / Idiopathic,12,4,YES,NO,YES,NO,9,11,HIGH
+35,female,73,Engineer,4,60 minutes,Scapular Region,Movement,11,2,NO,NO,NO,YES,8,5,LOW
+32,male,86,Lawyer,10,10 minutes,Intercostal Area,Deep Breathing,10,14,YES,YES,NO,YES,7,7,HIGH
+31,male,50,CEO,7,20 minutes,Scapular Region,Poor Posture,3,14,NO,YES,YES,NO,9,24,MED
+35,male,75,Nurse,9,60 minutes,Intercostal Area,Unidentified / Idiopathic,2,25,YES,NO,YES,YES,5,4,HIGH
+26,male,20,CEO,3,20 minutes,Upper Back (Thoracic),Trauma / Injury,12,16,YES,NO,NO,NO,8,15,MED
+27,male,54,Accountant,9,40 minutes,Diffuse/Generalized,Deep Breathing,0,13,NO,YES,NO,NO,7,2,MED
+28,female,78,Marketing Specialist,6,30 minutes,Intercostal Area,Repetitive Motion,6,13,YES,NO,YES,YES,4,6,HIGH
+27,male,85,Engineer,6,5 minutes,Left Pectoral,Unidentified / Idiopathic,21,3,YES,NO,YES,YES,8,11,LOW
+34,male,78,Graphic Designer,9,15 minutes,Scapular Region,Unidentified / Idiopathic,12,7,NO,NO,YES,NO,9,18,MED
+41,male,21,Engineer,10,5 minutes,Intercostal Area,Cold Weather,5,2,NO,NO,NO,YES,10,4,HIGH
+37,male,39,CEO,2,60 minutes,Right Pectoral,Movement,0,7,NO,YES,YES,NO,4,11,LOW
+34,female,29,CEO,6,5 minutes,Subclavicular,Deep Breathing,20,16,NO,YES,NO,NO,6,10,MED
+32,male,79,CEO,2,30 minutes,Costochondral Area,Cold Weather,19,23,YES,NO,NO,NO,10,15,HIGH
+21,female,47,CEO,10,40 minutes,Costochondral Area,Physical Activity,10,23,NO,NO,NO,YES,7,24,LOW
+30,female,21,Doctor,5,60 minutes,Costosternal Junction,Trauma / Injury,4,18,YES,NO,NO,NO,5,8,MED
+24,male,62,Accountant,5,15 minutes,Diffuse/Generalized,Palpation / Pressure,8,23,NO,NO,YES,NO,4,24,MED
+26,male,40,Nurse,1,5 minutes,Intercostal Area,Poor Posture,12,19,YES,NO,YES,YES,5,23,LOW
+40,male,49,Business Analyst,10,20 minutes,Diffuse/Generalized,Stress / Anxiety,7,10,YES,NO,NO,YES,4,19,HIGH
+37,female,24,Teacher,4,5 minutes,Scapular Region,Trauma / Injury,21,9,NO,NO,NO,NO,10,10,LOW
+26,female,70,Business Consultant,2,20 minutes,Epigastric,Unidentified / Idiopathic,17,16,NO,YES,NO,YES,8,20,HIGH
+32,female,29,Lawyer,6,5 minutes,Sternal (Central),Movement,0,19,YES,NO,YES,YES,6,5,HIGH
+32,female,46,Architect,9,10 minutes,Costochondral Area,Movement,1,4,NO,YES,YES,NO,9,0,MED
+27,male,72,Nurse,9,5 minutes,Intercostal Area,Unidentified / Idiopathic,0,22,NO,NO,YES,NO,10,3,MED
+30,female,56,CEO,1,30 minutes,Upper Back (Thoracic),Repetitive Motion,11,14,NO,YES,NO,NO,8,14,LOW
+31,female,74,Nurse,3,60 minutes,Scapular Region,Repetitive Motion,2,10,YES,YES,YES,NO,9,2,MED
+29,female,29,Accountant,3,60 minutes,Sternal (Central),Deep Breathing,7,22,YES,NO,YES,YES,4,5,MED
+41,male,24,Software Engineer,4,5 minutes,Subclavicular,Physical Activity,16,10,YES,YES,NO,YES,7,10,LOW
+34,male,25,Accountant,6,60 minutes,Diffuse/Generalized,Physical Activity,21,24,NO,NO,NO,NO,8,20,MED
+33,female,65,Doctor,7,5 minutes,Intercostal Area,Palpation / Pressure,19,7,YES,YES,NO,NO,4,18,MED
+28,male,34,Doctor,3,10 minutes,Right Pectoral,Repetitive Motion,8,15,NO,YES,YES,YES,9,6,MED
+28,female,26,IT Manager,9,30 minutes,Upper Back (Thoracic),Palpation / Pressure,18,2,NO,YES,YES,NO,9,5,LOW
+23,female,84,Analyst,5,5 minutes,Subclavicular,Palpation / Pressure,6,22,NO,NO,YES,YES,5,14,HIGH
+24,male,36,Analyst,4,30 minutes,Sternal (Central),Physical Activity,11,3,YES,YES,YES,NO,10,14,MED
+32,male,68,Graphic Designer,10,10 minutes,Scapular Region,Physical Activity,15,13,NO,YES,YES,YES,7,2,HIGH
+34,male,19,Writer,10,20 minutes,Scapular Region,Deep Breathing,12,17,YES,YES,NO,NO,4,21,HIGH
+24,female,39,CEO,3,60 minutes,Diffuse/Generalized,Stress / Anxiety,0,1,NO,YES,NO,YES,6,22,HIGH
+26,female,35,Business Analyst,9,40 minutes,Epigastric,Deep Breathing,21,18,YES,YES,NO,YES,7,5,MED
+36,female,61,Engineer,10,15 minutes,Epigastric,Stress / Anxiety,11,0,NO,NO,YES,YES,7,4,HIGH
+41,female,31,Writer,4,60 minutes,Sternal (Central),Cold Weather,10,4,NO,YES,YES,YES,4,13,LOW
+38,male,85,Graphic Designer,2,60 minutes,Costosternal Junction,Cold Weather,1,21,NO,NO,NO,YES,4,19,HIGH
+38,male,58,Architect,6,60 minutes,Left Pectoral,Poor Posture,1,12,NO,YES,YES,NO,6,8,MED
+30,female,32,Engineer,6,40 minutes,Costosternal Junction,Repetitive Motion,9,19,NO,NO,YES,YES,6,11,MED
+25,female,77,CEO,1,10 minutes,Upper Back (Thoracic),Trauma / Injury,18,6,YES,YES,YES,NO,6,10,MED
+37,male,36,Doctor,5,15 minutes,Diffuse/Generalized,Deep Breathing,6,21,NO,YES,YES,YES,7,2,HIGH
+34,female,82,Analyst,7,15 minutes,Right Pectoral,Unidentified / Idiopathic,1,1,YES,NO,NO,YES,5,12,HIGH
+37,male,59,Engineer,5,60 minutes,Upper Back (Thoracic),Stress / Anxiety,7,27,YES,NO,YES,NO,8,0,MED
+28,female,59,Architect,10,10 minutes,Epigastric,Cold Weather,18,22,NO,YES,NO,NO,7,15,HIGH
+22,female,80,Teacher,3,40 minutes,Costosternal Junction,Cold Weather,7,4,NO,NO,YES,YES,8,9,HIGH
+34,male,54,Sales Representative,1,20 minutes,Intercostal Area,Poor Posture,19,9,NO,YES,YES,NO,5,5,LOW
+33,male,45,Architect,1,10 minutes,Diffuse/Generalized,Physical Activity,16,16,YES,NO,NO,YES,4,21,HIGH
+25,male,46,Lawyer,1,60 minutes,Scapular Region,Stress / Anxiety,9,2,YES,NO,YES,NO,6,5,LOW
+27,female,22,Accountant,5,60 minutes,Costochondral Area,Movement,3,15,YES,YES,NO,NO,9,24,MED
+40,male,70,Engineer,8,30 minutes,Costochondral Area,Deep Breathing,14,4,NO,NO,YES,YES,6,0,HIGH
+21,male,65,Doctor,8,5 minutes,Sternal (Central),Trauma / Injury,16,15,NO,NO,YES,NO,8,16,LOW
+29,male,58,CEO,4,5 minutes,Right Pectoral,Poor Posture,20,21,YES,YES,NO,YES,5,4,MED
+32,male,44,Architect,5,40 minutes,Epigastric,Unidentified / Idiopathic,16,8,NO,NO,NO,YES,8,0,LOW
+29,male,79,Graphic Designer,6,30 minutes,Costochondral Area,Unidentified / Idiopathic,9,19,YES,NO,YES,YES,9,20,HIGH
+23,female,74,Teacher,10,60 minutes,Intercostal Area,Poor Posture,2,4,NO,NO,NO,YES,6,18,HIGH
+28,male,76,IT Manager,4,40 minutes,Right Pectoral,Cold Weather,19,17,YES,NO,YES,NO,9,14,MED
+31,male,64,Architect,1,40 minutes,Upper Back (Thoracic),Unidentified / Idiopathic,3,23,YES,YES,NO,NO,7,21,HIGH
+27,female,65,Project Manager,10,15 minutes,Epigastric,Deep Breathing,21,25,YES,NO,YES,YES,9,14,HIGH
+24,female,47,CEO,8,40 minutes,Scapular Region,Poor Posture,5,27,NO,YES,NO,YES,9,5,HIGH
+29,female,66,Engineer,1,20 minutes,Right Pectoral,Repetitive Motion,8,2,NO,NO,NO,YES,5,23,LOW
+23,female,61,Software Engineer,8,10 minutes,Subclavicular,Trauma / Injury,12,13,YES,NO,NO,NO,8,0,MED
+42,female,23,CEO,8,15 minutes,Diffuse/Generalized,Physical Activity,6,16,YES,NO,YES,YES,10,8,HIGH
+24,female,86,CEO,3,5 minutes,Subclavicular,Palpation / Pressure,11,3,NO,YES,YES,YES,7,4,MED
+25,female,40,CEO,8,40 minutes,Diffuse/Generalized,Poor Posture,17,19,NO,NO,NO,YES,6,13,HIGH
+27,female,69,Architect,1,20 minutes,Subclavicular,Repetitive Motion,9,6,YES,NO,NO,NO,4,23,HIGH
+27,male,51,CEO,5,10 minutes,Right Pectoral,Poor Posture,6,14,NO,NO,NO,YES,10,0,LOW
+30,male,71,Lawyer,9,20 minutes,Costosternal Junction,Deep Breathing,17,3,NO,NO,YES,NO,6,17,MED
+29,female,57,Marketing Specialist,2,5 minutes,Epigastric,Trauma / Injury,9,20,YES,NO,YES,YES,8,20,LOW
+43,female,63,Nurse,7,15 minutes,Upper Back (Thoracic),Cold Weather,16,25,NO,NO,YES,NO,7,11,MED
+32,female,53,Sales Representative,2,15 minutes,Subclavicular,Poor Posture,0,23,NO,YES,NO,YES,8,24,LOW
+41,male,32,Business Consultant,2,40 minutes,Subclavicular,Deep Breathing,5,13,YES,NO,YES,NO,9,10,MED
+32,male,68,CEO,8,15 minutes,Diffuse/Generalized,Palpation / Pressure,5,0,YES,NO,YES,YES,8,11,HIGH
+37,male,81,Doctor,6,10 minutes,Subclavicular,Movement,16,1,NO,NO,NO,NO,7,1,MED
+32,male,52,Doctor,2,10 minutes,Left Pectoral,Stress / Anxiety,0,23,NO,YES,NO,NO,5,18,MED
+30,male,58,Architect,6,30 minutes,Upper Back (Thoracic),Palpation / Pressure,8,1,NO,NO,NO,YES,5,14,HIGH
+23,male,85,Accountant,9,20 minutes,Upper Back (Thoracic),Physical Activity,11,21,NO,NO,YES,NO,8,8,LOW
+30,female,36,Teacher,7,60 minutes,Left Pectoral,Palpation / Pressure,14,18,YES,NO,YES,YES,4,11,MED
+34,male,74,Sales Representative,10,10 minutes,Costosternal Junction,Palpation / Pressure,12,3,YES,NO,NO,YES,5,8,MED
+38,female,31,Nurse,7,60 minutes,Subclavicular,Palpation / Pressure,16,17,NO,YES,YES,YES,5,19,HIGH
+33,male,27,Nurse,9,5 minutes,Epigastric,Physical Activity,6,23,NO,NO,YES,NO,4,10,HIGH
+34,female,55,CEO,5,30 minutes,Upper Back (Thoracic),Movement,19,18,NO,YES,YES,NO,5,24,LOW
+28,male,69,Lawyer,3,20 minutes,Right Pectoral,Movement,16,2,NO,YES,NO,YES,9,10,LOW
+28,male,24,CEO,2,10 minutes,Subclavicular,Stress / Anxiety,2,6,YES,YES,NO,YES,9,12,MED
+23,female,57,Accountant,10,15 minutes,Upper Back (Thoracic),Stress / Anxiety,19,10,YES,NO,NO,NO,5,18,MED
+22,female,80,Project Manager,9,20 minutes,Costosternal Junction,Trauma / Injury,9,4,NO,NO,YES,YES,5,2,LOW
+27,male,42,Graphic Designer,9,40 minutes,Intercostal Area,Deep Breathing,2,4,NO,YES,NO,YES,6,18,MED
+18,male,78,Project Manager,8,60 minutes,Left Pectoral,Repetitive Motion,5,1,YES,YES,NO,YES,6,14,HIGH
+35,female,61,Engineer,7,40 minutes,Epigastric,Physical Activity,20,13,YES,NO,YES,YES,9,19,HIGH
+25,male,69,Business Consultant,9,40 minutes,Right Pectoral,Poor Posture,13,24,YES,NO,YES,NO,6,8,MED
+27,female,67,Architect,7,10 minutes,Upper Back (Thoracic),Movement,1,10,NO,YES,YES,NO,10,12,MED
+26,female,27,Doctor,5,10 minutes,Right Pectoral,Unidentified / Idiopathic,11,19,YES,NO,NO,NO,10,13,LOW
+18,female,57,CEO,2,40 minutes,Subclavicular,Stress / Anxiety,13,24,YES,NO,NO,NO,5,19,HIGH
+38,female,35,CEO,6,40 minutes,Upper Back (Thoracic),Cold Weather,5,9,NO,NO,NO,NO,7,1,LOW
+26,female,59,Doctor,4,10 minutes,Intercostal Area,Unidentified / Idiopathic,9,19,YES,NO,NO,YES,4,13,LOW
+30,female,62,Doctor,9,5 minutes,Subclavicular,Deep Breathing,2,15,NO,NO,NO,NO,5,1,MED
+35,male,77,Marketing Specialist,1,5 minutes,Sternal (Central),Deep Breathing,12,19,YES,NO,YES,NO,6,22,LOW
+45,male,69,Sales Representative,2,20 minutes,Right Pectoral,Repetitive Motion,14,23,NO,NO,NO,NO,4,22,HIGH
+32,female,49,Analyst,2,60 minutes,Diffuse/Generalized,Cold Weather,13,7,NO,YES,NO,YES,9,20,MED
+56,male,54,Engineer,4,60 minutes,Subclavicular,Trauma / Injury,4,10,YES,YES,NO,YES,9,2,LOW
+24,female,60,Engineer,5,10 minutes,Subclavicular,Poor Posture,13,1,YES,YES,NO,YES,6,1,HIGH
+30,male,42,Architect,1,5 minutes,Diffuse/Generalized,Stress / Anxiety,9,20,YES,NO,YES,NO,4,12,LOW
+60,male,55,IT Manager,1,30 minutes,Diffuse/Generalized,Physical Activity,7,23,NO,YES,NO,NO,8,21,HIGH
+33,male,35,Lawyer,5,5 minutes,Left Pectoral,Trauma / Injury,1,3,YES,NO,YES,YES,4,0,LOW
+37,female,59,Writer,10,20 minutes,Left Pectoral,Deep Breathing,10,11,YES,YES,NO,NO,10,7,LOW
+23,male,44,Project Manager,2,60 minutes,Epigastric,Repetitive Motion,16,17,YES,YES,YES,NO,7,20,LOW
+31,female,80,Writer,10,20 minutes,Costochondral Area,Stress / Anxiety,16,24,NO,NO,YES,YES,9,20,HIGH
+26,female,58,Architect,10,5 minutes,Right Pectoral,Physical Activity,10,6,NO,YES,NO,NO,7,22,LOW
+28,female,80,Teacher,6,10 minutes,Upper Back (Thoracic),Deep Breathing,10,4,NO,YES,NO,YES,5,9,LOW
+37,male,40,CEO,6,40 minutes,Right Pectoral,Cold Weather,10,8,YES,NO,YES,NO,4,19,HIGH
+26,female,52,Graphic Designer,5,5 minutes,Sternal (Central),Repetitive Motion,21,21,YES,NO,NO,YES,7,11,LOW
+30,female,74,Doctor,7,30 minutes,Costosternal Junction,Cold Weather,19,20,YES,YES,NO,YES,6,6,HIGH
+26,female,35,Engineer,2,30 minutes,Costochondral Area,Movement,6,13,YES,NO,NO,NO,8,0,LOW
+25,male,51,Project Manager,8,15 minutes,Upper Back (Thoracic),Cold Weather,17,25,NO,NO,YES,NO,9,15,MED
+27,female,70,Business Analyst,5,5 minutes,Subclavicular,Trauma / Injury,4,0,NO,YES,NO,NO,8,6,LOW
+25,male,25,Sales Representative,1,5 minutes,Right Pectoral,Unidentified / Idiopathic,8,22,YES,YES,NO,NO,10,23,HIGH
+35,male,69,Graphic Designer,4,5 minutes,Diffuse/Generalized,Deep Breathing,1,2,YES,NO,NO,YES,7,18,LOW
+36,female,51,Teacher,9,5 minutes,Upper Back (Thoracic),Poor Posture,12,9,NO,YES,YES,NO,10,6,LOW
+26,male,20,Graphic Designer,5,20 minutes,Costosternal Junction,Repetitive Motion,0,27,NO,NO,YES,NO,7,2,HIGH
+27,male,68,CEO,3,10 minutes,Left Pectoral,Unidentified / Idiopathic,15,16,YES,YES,YES,NO,5,8,LOW
+30,male,42,Sales Representative,3,30 minutes,Left Pectoral,Cold Weather,13,5,YES,YES,YES,NO,6,13,MED
+25,female,24,Accountant,6,15 minutes,Costosternal Junction,Cold Weather,6,26,YES,NO,YES,YES,9,16,HIGH
+31,male,42,Engineer,2,10 minutes,Costosternal Junction,Movement,5,3,NO,YES,NO,NO,5,22,MED
+45,female,83,CEO,9,40 minutes,Scapular Region,Trauma / Injury,10,16,NO,YES,YES,NO,7,9,LOW
+29,female,42,Marketing Specialist,9,40 minutes,Epigastric,Cold Weather,3,19,YES,NO,NO,NO,4,22,HIGH
+46,female,62,Graphic Designer,10,30 minutes,Diffuse/Generalized,Cold Weather,10,10,YES,NO,YES,NO,8,14,MED
+30,male,35,Project Manager,6,30 minutes,Left Pectoral,Stress / Anxiety,5,25,YES,YES,NO,YES,10,2,LOW
+29,female,39,Graphic Designer,6,5 minutes,Costochondral Area,Cold Weather,6,23,YES,NO,NO,NO,7,9,LOW
+24,female,70,Business Consultant,6,10 minutes,Left Pectoral,Unidentified / Idiopathic,19,7,NO,NO,YES,YES,9,21,HIGH
+29,female,77,Doctor,2,30 minutes,Intercostal Area,Cold Weather,12,19,YES,NO,NO,NO,6,8,LOW
+35,female,29,Marketing Specialist,1,40 minutes,Costochondral Area,Trauma / Injury,1,1,NO,NO,NO,YES,5,14,LOW
+33,male,80,Graphic Designer,2,20 minutes,Upper Back (Thoracic),Repetitive Motion,11,7,YES,NO,YES,NO,8,22,HIGH
+27,male,58,IT Manager,1,30 minutes,Diffuse/Generalized,Repetitive Motion,13,9,YES,YES,YES,YES,5,6,MED
+36,female,73,Business Consultant,9,20 minutes,Costosternal Junction,Cold Weather,8,23,YES,YES,YES,NO,4,6,LOW
+33,female,22,Graphic Designer,3,60 minutes,Epigastric,Cold Weather,14,10,NO,NO,YES,NO,10,1,LOW
+25,female,26,Teacher,4,5 minutes,Subclavicular,Physical Activity,17,24,NO,YES,NO,YES,9,10,HIGH
+23,male,37,Writer,6,15 minutes,Left Pectoral,Movement,5,23,YES,NO,NO,NO,8,19,LOW
+54,male,42,Engineer,8,15 minutes,Right Pectoral,Physical Activity,15,25,YES,YES,NO,YES,6,18,MED
+22,female,32,Doctor,8,20 minutes,Costosternal Junction,Physical Activity,2,18,YES,YES,YES,YES,5,14,MED
+25,male,37,Engineer,9,10 minutes,Upper Back (Thoracic),Cold Weather,8,18,NO,YES,YES,YES,9,17,HIGH
+29,female,84,Sales Representative,2,5 minutes,Subclavicular,Repetitive Motion,18,3,NO,NO,YES,YES,7,8,HIGH
+27,male,64,Business Consultant,8,30 minutes,Intercostal Area,Repetitive Motion,21,22,NO,YES,NO,YES,6,20,LOW
+30,male,66,Project Manager,2,40 minutes,Sternal (Central),Repetitive Motion,5,8,YES,YES,YES,NO,8,11,LOW
+26,female,66,Business Analyst,4,30 minutes,Costochondral Area,Unidentified / Idiopathic,1,11,YES,NO,YES,NO,6,2,LOW
+25,female,75,Graphic Designer,2,5 minutes,Costosternal Junction,Stress / Anxiety,16,26,YES,YES,NO,YES,8,23,LOW
+31,female,24,Architect,2,20 minutes,Epigastric,Trauma / Injury,14,17,YES,YES,NO,YES,4,8,MED
+33,male,26,Marketing Specialist,7,5 minutes,Upper Back (Thoracic),Unidentified / Idiopathic,18,22,YES,YES,NO,NO,6,6,HIGH
+34,male,35,Nurse,2,15 minutes,Costochondral Area,Movement,14,17,YES,NO,YES,NO,7,7,MED
+34,male,75,Marketing Specialist,4,60 minutes,Upper Back (Thoracic),Repetitive Motion,11,8,NO,YES,YES,YES,5,9,HIGH
+29,female,84,CEO,1,10 minutes,Sternal (Central),Palpation / Pressure,10,16,YES,NO,NO,YES,7,18,LOW
+33,female,83,Lawyer,9,15 minutes,Costochondral Area,Poor Posture,9,18,NO,NO,YES,YES,7,15,HIGH
+34,female,19,Teacher,4,10 minutes,Subclavicular,Stress / Anxiety,8,13,NO,NO,NO,YES,10,4,LOW
+26,male,25,Graphic Designer,9,40 minutes,Upper Back (Thoracic),Repetitive Motion,11,10,YES,YES,NO,YES,7,10,MED
+32,male,29,Nurse,3,30 minutes,Sternal (Central),Physical Activity,6,4,YES,NO,YES,NO,6,22,LOW
+34,male,72,Accountant,9,10 minutes,Right Pectoral,Poor Posture,6,24,YES,NO,YES,YES,9,1,HIGH
+28,female,30,Lawyer,5,40 minutes,Costosternal Junction,Repetitive Motion,13,25,YES,NO,NO,NO,5,21,LOW
+35,male,57,IT Manager,7,5 minutes,Left Pectoral,Trauma / Injury,9,10,YES,YES,NO,NO,5,5,MED
+36,male,53,Graphic Designer,4,5 minutes,Sternal (Central),Palpation / Pressure,2,27,YES,YES,YES,NO,6,9,MED
+21,female,35,CEO,9,10 minutes,Subclavicular,Poor Posture,4,1,NO,NO,YES,NO,10,2,MED
+21,male,71,Nurse,8,10 minutes,Upper Back (Thoracic),Palpation / Pressure,15,13,YES,NO,YES,YES,7,19,MED
+22,female,61,Nurse,9,5 minutes,Costosternal Junction,Unidentified / Idiopathic,9,12,NO,NO,NO,YES,10,13,HIGH
+41,female,43,Architect,10,5 minutes,Diffuse/Generalized,Movement,9,17,NO,NO,YES,YES,5,21,MED
+55,female,28,Sales Representative,4,10 minutes,Diffuse/Generalized,Trauma / Injury,11,8,NO,NO,NO,NO,4,20,MED
+32,female,63,Sales Representative,10,10 minutes,Subclavicular,Palpation / Pressure,7,24,YES,YES,YES,YES,7,15,HIGH
+21,male,58,Sales Representative,3,10 minutes,Diffuse/Generalized,Trauma / Injury,12,3,YES,YES,YES,NO,4,20,HIGH
+45,female,75,Doctor,1,20 minutes,Subclavicular,Stress / Anxiety,11,10,YES,YES,YES,YES,9,5,HIGH
+27,male,65,Doctor,10,15 minutes,Scapular Region,Palpation / Pressure,9,12,NO,NO,NO,NO,4,8,LOW
+25,female,50,Architect,6,20 minutes,Upper Back (Thoracic),Cold Weather,11,27,YES,NO,NO,NO,4,6,MED
+34,male,71,Architect,6,60 minutes,Left Pectoral,Movement,11,0,YES,YES,YES,NO,5,10,HIGH
+26,female,76,Graphic Designer,7,20 minutes,Diffuse/Generalized,Poor Posture,20,2,NO,NO,YES,NO,6,11,HIGH
+41,male,33,Marketing Specialist,9,40 minutes,Epigastric,Cold Weather,21,14,YES,NO,NO,YES,5,19,MED
+27,female,42,Engineer,4,30 minutes,Right Pectoral,Unidentified / Idiopathic,2,2,NO,NO,YES,YES,4,22,LOW
+31,male,19,Graphic Designer,2,15 minutes,Intercostal Area,Poor Posture,12,7,NO,YES,YES,NO,8,12,LOW
+25,female,40,Nurse,6,10 minutes,Costosternal Junction,Deep Breathing,7,16,YES,NO,NO,YES,7,14,MED
+26,male,27,Doctor,4,5 minutes,Scapular Region,Palpation / Pressure,3,8,YES,NO,NO,NO,5,23,MED
+27,female,73,Architect,5,15 minutes,Subclavicular,Unidentified / Idiopathic,15,15,NO,YES,NO,YES,9,21,HIGH
+42,female,45,Teacher,8,60 minutes,Costosternal Junction,Stress / Anxiety,18,24,NO,NO,YES,YES,6,5,HIGH
+29,female,52,Graphic Designer,6,60 minutes,Subclavicular,Physical Activity,4,9,NO,YES,NO,YES,9,19,HIGH
+25,female,40,CEO,6,10 minutes,Costochondral Area,Poor Posture,11,16,YES,NO,NO,NO,10,22,HIGH
+33,male,38,Sales Representative,8,5 minutes,Right Pectoral,Poor Posture,10,16,NO,NO,NO,YES,4,23,LOW
+37,male,77,Project Manager,1,60 minutes,Upper Back (Thoracic),Stress / Anxiety,4,6,NO,NO,NO,YES,4,11,HIGH
+40,female,53,Lawyer,4,20 minutes,Diffuse/Generalized,Repetitive Motion,16,14,NO,YES,NO,NO,4,14,LOW
+31,male,52,CEO,3,40 minutes,Scapular Region,Unidentified / Idiopathic,8,25,NO,YES,NO,NO,10,19,MED
+26,female,51,Accountant,8,40 minutes,Intercostal Area,Palpation / Pressure,1,25,YES,YES,YES,YES,4,6,LOW
+24,male,63,Marketing Specialist,2,40 minutes,Sternal (Central),Movement,1,16,YES,YES,NO,NO,9,6,LOW
+29,female,19,Doctor,7,30 minutes,Diffuse/Generalized,Palpation / Pressure,11,15,NO,NO,NO,YES,7,8,LOW
+48,female,43,Business Consultant,1,10 minutes,Left Pectoral,Poor Posture,4,8,YES,YES,NO,YES,10,12,LOW
+35,male,53,CEO,7,60 minutes,Right Pectoral,Deep Breathing,16,7,NO,YES,YES,YES,10,1,HIGH
+32,male,26,Doctor,10,60 minutes,Diffuse/Generalized,Poor Posture,7,11,YES,YES,NO,YES,6,9,MED
+29,male,85,Engineer,9,20 minutes,Upper Back (Thoracic),Trauma / Injury,18,11,NO,NO,YES,YES,4,19,LOW
+26,male,80,Lawyer,4,30 minutes,Costosternal Junction,Cold Weather,12,24,YES,NO,YES,NO,4,7,LOW
+28,female,22,Business Consultant,2,10 minutes,Subclavicular,Physical Activity,20,21,NO,NO,NO,YES,5,11,MED
+23,male,74,Doctor,5,10 minutes,Intercostal Area,Unidentified / Idiopathic,13,11,YES,YES,NO,YES,6,20,HIGH
+35,female,86,Engineer,2,30 minutes,Intercostal Area,Cold Weather,2,11,YES,NO,NO,NO,8,18,LOW
+29,female,40,IT Manager,8,60 minutes,Upper Back (Thoracic),Repetitive Motion,17,23,NO,YES,YES,NO,4,14,MED
+26,male,50,Architect,2,30 minutes,Costochondral Area,Repetitive Motion,17,20,NO,NO,YES,YES,7,4,LOW
+33,female,32,Sales Representative,3,30 minutes,Costochondral Area,Trauma / Injury,17,1,YES,YES,NO,NO,4,21,MED
+33,female,74,Teacher,2,15 minutes,Costosternal Junction,Movement,10,8,NO,NO,NO,NO,10,5,MED
+22,female,36,Sales Representative,7,40 minutes,Subclavicular,Physical Activity,14,1,YES,NO,YES,NO,8,2,LOW
+30,female,62,Project Manager,4,40 minutes,Upper Back (Thoracic),Poor Posture,9,4,NO,NO,YES,NO,9,23,MED
+33,male,41,Sales Representative,7,5 minutes,Right Pectoral,Deep Breathing,7,13,YES,YES,YES,YES,9,24,MED
+31,female,34,Marketing Specialist,3,60 minutes,Right Pectoral,Stress / Anxiety,21,14,NO,NO,NO,YES,5,24,MED
+21,male,52,Nurse,5,60 minutes,Diffuse/Generalized,Palpation / Pressure,21,4,NO,YES,YES,NO,9,15,LOW
+31,male,22,Accountant,6,60 minutes,Costosternal Junction,Movement,21,11,YES,YES,YES,YES,9,19,MED
+26,female,86,Architect,6,40 minutes,Costochondral Area,Physical Activity,17,10,NO,YES,YES,NO,9,14,LOW
+30,female,70,Architect,8,5 minutes,Sternal (Central),Unidentified / Idiopathic,5,16,NO,YES,NO,NO,8,1,LOW
+30,male,26,Doctor,1,5 minutes,Subclavicular,Unidentified / Idiopathic,0,27,NO,NO,YES,YES,10,7,LOW
+23,female,71,Graphic Designer,7,60 minutes,Right Pectoral,Deep Breathing,15,6,NO,YES,NO,NO,4,14,HIGH
+34,female,64,Lawyer,2,30 minutes,Sternal (Central),Trauma / Injury,3,5,NO,NO,NO,NO,7,6,MED
+55,male,74,Analyst,1,10 minutes,Subclavicular,Poor Posture,11,19,YES,YES,YES,NO,4,4,LOW
+28,female,25,Nurse,5,15 minutes,Left Pectoral,Cold Weather,11,8,YES,YES,YES,YES,10,22,LOW
+26,female,70,Architect,8,10 minutes,Upper Back (Thoracic),Trauma / Injury,8,24,NO,YES,NO,YES,5,18,HIGH
+28,male,23,Doctor,5,20 minutes,Left Pectoral,Movement,6,27,YES,YES,NO,NO,4,18,LOW
+32,male,21,Sales Representative,10,20 minutes,Costosternal Junction,Trauma / Injury,14,7,NO,NO,NO,NO,5,5,MED
+28,female,51,Architect,9,5 minutes,Scapular Region,Deep Breathing,11,18,YES,NO,NO,YES,8,24,HIGH
+21,female,33,Analyst,8,30 minutes,Left Pectoral,Cold Weather,14,16,NO,YES,NO,YES,8,1,MED
+24,female,81,Lawyer,8,15 minutes,Diffuse/Generalized,Poor Posture,18,26,YES,YES,YES,YES,4,9,LOW
+26,female,43,Engineer,6,5 minutes,Subclavicular,Palpation / Pressure,1,0,NO,NO,YES,NO,6,10,HIGH
+23,male,57,Engineer,10,30 minutes,Right Pectoral,Poor Posture,15,3,YES,YES,YES,YES,6,24,LOW
+24,female,18,Architect,2,40 minutes,Left Pectoral,Repetitive Motion,12,25,NO,NO,NO,YES,7,16,MED
+28,female,76,Teacher,9,60 minutes,Scapular Region,Trauma / Injury,1,19,NO,YES,YES,NO,10,4,LOW
+24,male,38,Architect,4,10 minutes,Upper Back (Thoracic),Deep Breathing,3,4,NO,NO,NO,YES,7,24,HIGH
+33,female,25,Doctor,8,30 minutes,Right Pectoral,Cold Weather,4,6,YES,NO,NO,YES,6,23,LOW
+34,male,43,IT Manager,8,30 minutes,Epigastric,Deep Breathing,5,12,YES,NO,YES,YES,9,13,MED
+27,female,64,Lawyer,10,40 minutes,Diffuse/Generalized,Cold Weather,13,19,YES,NO,YES,YES,5,13,MED
+28,male,40,Teacher,4,10 minutes,Costochondral Area,Poor Posture,1,26,NO,NO,NO,YES,6,11,HIGH
+26,female,61,Architect,1,60 minutes,Right Pectoral,Unidentified / Idiopathic,20,10,YES,YES,YES,YES,8,1,LOW
+20,female,54,Architect,6,5 minutes,Subclavicular,Poor Posture,12,15,YES,YES,NO,NO,4,10,MED
+23,female,61,Business Consultant,10,30 minutes,Upper Back (Thoracic),Deep Breathing,0,11,NO,YES,YES,NO,6,7,MED
+29,female,75,Accountant,10,60 minutes,Diffuse/Generalized,Deep Breathing,18,22,NO,YES,NO,NO,7,15,MED
+26,female,85,Analyst,7,10 minutes,Scapular Region,Movement,20,24,NO,YES,YES,YES,7,20,LOW
+36,female,34,Doctor,5,20 minutes,Intercostal Area,Deep Breathing,3,6,YES,YES,NO,NO,6,14,MED
+41,male,75,Marketing Specialist,9,30 minutes,Diffuse/Generalized,Movement,1,9,YES,NO,YES,NO,7,21,LOW
+33,female,75,Software Engineer,9,5 minutes,Intercostal Area,Trauma / Injury,17,23,YES,YES,NO,YES,4,18,HIGH
+23,male,26,Project Manager,6,20 minutes,Costosternal Junction,Movement,20,17,NO,YES,YES,YES,4,4,MED
+39,female,73,Nurse,3,10 minutes,Intercostal Area,Cold Weather,9,13,NO,NO,YES,YES,4,18,MED
+34,female,64,Lawyer,8,15 minutes,Left Pectoral,Repetitive Motion,12,1,NO,YES,YES,NO,6,14,LOW
+26,male,39,Nurse,2,20 minutes,Costochondral Area,Movement,9,6,NO,YES,YES,YES,5,13,LOW
+24,male,20,Engineer,4,30 minutes,Sternal (Central),Palpation / Pressure,15,23,YES,NO,NO,YES,9,1,MED
+37,female,65,Lawyer,7,20 minutes,Left Pectoral,Poor Posture,3,19,YES,NO,YES,NO,10,13,HIGH
+43,male,35,Project Manager,4,15 minutes,Sternal (Central),Palpation / Pressure,10,21,YES,YES,YES,YES,7,14,MED
+40,female,58,Teacher,7,10 minutes,Left Pectoral,Repetitive Motion,0,5,NO,YES,NO,YES,8,4,HIGH
+30,female,68,CEO,2,20 minutes,Sternal (Central),Physical Activity,13,9,YES,YES,NO,NO,7,18,HIGH
+34,male,51,CEO,6,60 minutes,Subclavicular,Palpation / Pressure,12,20,YES,NO,YES,NO,5,19,MED
+27,female,22,Graphic Designer,9,20 minutes,Subclavicular,Repetitive Motion,6,24,YES,YES,NO,YES,10,22,LOW
+36,female,25,Engineer,9,10 minutes,Sternal (Central),Stress / Anxiety,2,20,NO,NO,YES,NO,4,8,LOW
+27,male,36,Graphic Designer,2,20 minutes,Intercostal Area,Physical Activity,14,10,NO,YES,NO,NO,7,13,LOW
+35,male,46,Engineer,6,20 minutes,Subclavicular,Movement,8,13,NO,YES,NO,YES,6,1,HIGH
+32,male,61,Accountant,10,10 minutes,Costochondral Area,Cold Weather,5,14,YES,YES,YES,YES,9,14,MED
+37,female,80,Lawyer,5,20 minutes,Left Pectoral,Repetitive Motion,8,20,YES,YES,NO,YES,6,17,HIGH
+29,male,38,Engineer,3,10 minutes,Upper Back (Thoracic),Stress / Anxiety,10,22,NO,YES,YES,YES,8,10,HIGH
+33,male,18,Accountant,10,5 minutes,Epigastric,Unidentified / Idiopathic,12,17,YES,YES,YES,NO,8,1,LOW
+28,female,34,Nurse,3,15 minutes,Subclavicular,Physical Activity,19,12,YES,YES,NO,YES,6,11,MED
+26,male,85,Writer,10,5 minutes,Upper Back (Thoracic),Palpation / Pressure,11,14,NO,NO,YES,NO,8,22,LOW
+27,male,67,Marketing Specialist,1,60 minutes,Intercostal Area,Trauma / Injury,0,13,YES,YES,NO,YES,4,18,LOW
+38,female,65,Engineer,2,60 minutes,Epigastric,Stress / Anxiety,12,3,NO,YES,NO,NO,8,16,MED
+57,female,63,Teacher,2,20 minutes,Subclavicular,Cold Weather,15,12,YES,YES,YES,YES,4,23,HIGH
+28,male,57,Teacher,6,30 minutes,Subclavicular,Cold Weather,5,0,NO,YES,YES,YES,8,14,LOW
+26,female,41,Architect,6,30 minutes,Intercostal Area,Deep Breathing,7,2,NO,NO,YES,NO,10,10,MED
+42,male,26,Architect,2,60 minutes,Intercostal Area,Trauma / Injury,20,6,YES,YES,NO,NO,4,11,HIGH
+31,female,39,Lawyer,2,20 minutes,Subclavicular,Cold Weather,15,7,YES,NO,YES,NO,6,16,HIGH
+58,male,54,Marketing Specialist,3,20 minutes,Diffuse/Generalized,Poor Posture,9,12,YES,YES,NO,YES,8,5,HIGH
+29,female,85,Doctor,4,5 minutes,Diffuse/Generalized,Stress / Anxiety,15,22,NO,YES,YES,YES,6,21,LOW
+39,female,35,Accountant,7,5 minutes,Intercostal Area,Stress / Anxiety,5,20,YES,NO,NO,YES,9,7,MED
+34,male,44,Marketing Specialist,9,40 minutes,Epigastric,Stress / Anxiety,3,26,NO,NO,YES,YES,10,5,HIGH
+57,male,54,Accountant,1,20 minutes,Right Pectoral,Cold Weather,18,23,YES,YES,NO,YES,9,0,HIGH
+27,female,62,Sales Representative,6,60 minutes,Sternal (Central),Palpation / Pressure,15,18,YES,YES,NO,YES,6,1,HIGH
+23,female,20,Software Engineer,2,5 minutes,Sternal (Central),Unidentified / Idiopathic,12,6,NO,YES,YES,NO,9,16,MED
+18,male,74,Architect,1,5 minutes,Sternal (Central),Physical Activity,9,13,YES,NO,YES,YES,6,13,LOW
+30,female,54,Architect,10,60 minutes,Right Pectoral,Movement,8,7,NO,NO,NO,YES,5,22,MED
+23,male,40,Sales Representative,5,10 minutes,Diffuse/Generalized,Deep Breathing,10,6,YES,YES,NO,NO,9,2,HIGH
+43,female,49,Engineer,5,40 minutes,Right Pectoral,Unidentified / Idiopathic,9,16,YES,YES,NO,NO,8,19,HIGH
+18,male,32,Business Analyst,3,5 minutes,Costosternal Junction,Palpation / Pressure,10,8,YES,YES,NO,NO,7,16,LOW
+29,male,18,Doctor,4,20 minutes,Intercostal Area,Unidentified / Idiopathic,12,27,NO,YES,YES,YES,8,9,MED
+48,male,47,CEO,6,40 minutes,Intercostal Area,Physical Activity,9,20,YES,YES,NO,YES,9,11,MED
+43,male,72,Teacher,10,10 minutes,Subclavicular,Cold Weather,20,22,NO,NO,NO,YES,10,0,MED
+28,female,69,Graphic Designer,1,10 minutes,Upper Back (Thoracic),Deep Breathing,14,5,NO,NO,YES,YES,4,6,MED
+30,male,26,CEO,2,30 minutes,Epigastric,Repetitive Motion,1,7,NO,NO,YES,YES,4,4,HIGH
+26,female,52,Graphic Designer,7,30 minutes,Left Pectoral,Movement,17,3,YES,YES,NO,NO,10,13,HIGH
+33,female,43,Analyst,1,10 minutes,Intercostal Area,Poor Posture,0,8,NO,YES,YES,NO,7,13,LOW
+31,male,20,Teacher,9,20 minutes,Left Pectoral,Palpation / Pressure,18,2,NO,NO,YES,NO,9,20,HIGH
+30,female,69,CEO,3,5 minutes,Right Pectoral,Poor Posture,2,14,NO,NO,YES,YES,9,0,LOW
+27,female,59,Marketing Specialist,6,30 minutes,Subclavicular,Cold Weather,7,22,NO,NO,YES,NO,5,16,LOW
+24,female,64,Writer,4,10 minutes,Right Pectoral,Unidentified / Idiopathic,7,0,YES,NO,NO,NO,9,13,MED
+25,female,24,Project Manager,6,5 minutes,Subclavicular,Cold Weather,16,18,NO,YES,NO,YES,5,21,HIGH
+23,male,44,Business Consultant,1,10 minutes,Costosternal Junction,Stress / Anxiety,19,22,NO,NO,NO,YES,9,1,LOW
+36,female,53,Accountant,5,30 minutes,Epigastric,Physical Activity,16,20,NO,NO,YES,NO,6,3,MED
+25,male,54,Architect,8,5 minutes,Scapular Region,Trauma / Injury,16,21,NO,NO,NO,YES,9,14,LOW
+54,male,36,Doctor,1,30 minutes,Epigastric,Poor Posture,14,27,NO,NO,YES,NO,9,21,HIGH
+34,female,59,Analyst,4,60 minutes,Right Pectoral,Physical Activity,1,12,YES,NO,YES,YES,4,18,MED
+25,male,30,Engineer,6,5 minutes,Left Pectoral,Movement,10,3,NO,NO,NO,NO,7,22,LOW
+29,male,36,Doctor,2,15 minutes,Subclavicular,Deep Breathing,1,8,YES,NO,NO,YES,4,14,HIGH
+39,male,57,Analyst,9,30 minutes,Scapular Region,Movement,15,26,YES,NO,YES,YES,7,24,MED
+38,female,55,Accountant,9,10 minutes,Costochondral Area,Deep Breathing,8,12,NO,NO,YES,YES,4,8,MED
+43,male,34,IT Manager,6,30 minutes,Subclavicular,Physical Activity,9,21,YES,NO,YES,YES,4,22,LOW
+46,male,68,Accountant,1,30 minutes,Diffuse/Generalized,Movement,11,7,YES,YES,YES,YES,4,8,MED
+38,female,57,Architect,6,40 minutes,Sternal (Central),Trauma / Injury,13,8,NO,NO,YES,NO,6,1,HIGH
+33,female,25,Marketing Specialist,9,5 minutes,Subclavicular,Unidentified / Idiopathic,8,22,NO,NO,NO,YES,5,19,HIGH
+34,female,65,CEO,5,5 minutes,Right Pectoral,Physical Activity,10,2,NO,YES,YES,YES,7,16,MED
+62,female,86,IT Manager,3,60 minutes,Costochondral Area,Cold Weather,3,4,NO,NO,NO,YES,5,19,MED
+23,male,32,Nurse,4,10 minutes,Costochondral Area,Unidentified / Idiopathic,12,1,NO,YES,YES,NO,6,9,MED
+35,female,38,Architect,5,15 minutes,Intercostal Area,Repetitive Motion,11,16,YES,YES,NO,NO,6,5,LOW
+25,male,29,Business Consultant,8,10 minutes,Costosternal Junction,Palpation / Pressure,14,13,NO,NO,NO,YES,4,12,MED
+36,female,32,Sales Representative,9,40 minutes,Costochondral Area,Unidentified / Idiopathic,5,25,NO,YES,YES,YES,4,23,HIGH
+41,male,77,IT Manager,6,30 minutes,Upper Back (Thoracic),Stress / Anxiety,19,24,NO,NO,NO,YES,6,23,LOW
+24,male,55,Lawyer,10,20 minutes,Left Pectoral,Cold Weather,7,12,NO,NO,YES,YES,10,5,LOW
+51,male,41,Business Consultant,10,15 minutes,Subclavicular,Stress / Anxiety,14,8,NO,YES,YES,NO,4,9,MED
+29,male,52,Graphic Designer,6,5 minutes,Right Pectoral,Poor Posture,10,24,NO,NO,YES,NO,8,10,LOW
+31,male,18,Business Analyst,7,20 minutes,Scapular Region,Cold Weather,7,11,YES,YES,YES,YES,4,17,MED
+27,male,80,Architect,5,15 minutes,Costosternal Junction,Poor Posture,13,21,NO,NO,NO,NO,6,14,HIGH
+31,male,24,Accountant,3,40 minutes,Costosternal Junction,Unidentified / Idiopathic,10,19,NO,YES,YES,YES,9,15,MED
+27,female,61,Graphic Designer,8,60 minutes,Subclavicular,Unidentified / Idiopathic,19,13,NO,NO,NO,YES,5,24,HIGH
+23,female,33,Doctor,1,30 minutes,Intercostal Area,Trauma / Injury,11,0,YES,YES,NO,NO,5,17,MED
+21,male,49,Lawyer,7,60 minutes,Upper Back (Thoracic),Stress / Anxiety,20,24,NO,YES,NO,NO,6,24,LOW
+27,male,49,Business Analyst,7,20 minutes,Epigastric,Unidentified / Idiopathic,4,17,YES,NO,NO,NO,8,20,HIGH
+39,male,29,Engineer,10,10 minutes,Upper Back (Thoracic),Unidentified / Idiopathic,21,21,NO,NO,YES,YES,5,3,MED
+26,female,79,Sales Representative,1,5 minutes,Epigastric,Unidentified / Idiopathic,18,21,NO,YES,NO,YES,7,13,LOW
+27,male,33,Software Engineer,9,30 minutes,Scapular Region,Stress / Anxiety,11,16,NO,YES,YES,NO,8,14,MED
+22,female,86,Teacher,7,40 minutes,Epigastric,Movement,19,15,NO,YES,YES,YES,4,22,LOW
+26,male,31,Doctor,2,10 minutes,Subclavicular,Repetitive Motion,7,14,YES,YES,YES,NO,6,18,LOW
+31,female,86,Nurse,4,40 minutes,Left Pectoral,Repetitive Motion,0,3,NO,YES,YES,YES,5,5,MED
